@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fajri Kornel - Portofolio</title>
+        <meta name="description" content="Fajri Kornel's portofolio.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="src/cv.webp" type="image/webp" sizes="16x16">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class="head">
+            <div class="foto">
+                <img src="src/fajri.png">
+            </div>
+            <div class="contact">
+                <h1>FAJRI ANUGERAH PRAMADHANA KORNEL</h1>
+                <div class="contactdata">
+                    <a href="mailto:fajri.apk@gmail.com">
+                        <img src="src/gmail.png">
+                    </a>
+                    <p>fajri.apk@gmail.com</p>
+                    <a href="https://www.linkedin.com/in/fajrikornel/" target="_blank"><img src="src/linkedin.webp"></a>
+                    <p>Fajri Kornel</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="overview">
+                <h1 onclick=appear("overviewtext","block")>OVERVIEW</h1>
+                <p id="overviewtext">I am a telecommunication engineering student from Institut Teknologi Bandung.
+                     I am interested in making the world better by means of telecommunications.</p>
+            </div>
+    
+            <div class="subcontent">
+                <h1 onclick=appear("education","block")>
+                    EDUCATION
+                </h1>
+                <div id="education">
+                    <div class="subcontentrow">
+                        <div class="logo">
+                            <img src="src/itb.png" class="orgimg">
+                        </div>
+                        <div class="org">
+                            <p class="orgname">Institut Teknologi Bandung (2018-now)</p>
+                            <p class="orgdesc">Majoring in Telecommmunication Engineering.</p>
+                        </div>
+                    </div>
+    
+                    <div class="subcontentrow">
+                        <div class="logo">
+                            <img src="src/sma47.png" class="orgimg">
+                        </div>
+                        <div class="org">
+                            <p class="orgname">SMA Negeri 47 Jakarta (2015-2018)</p>
+                            <p class="orgdesc">Mathematics and Science.</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="subcontent R">
+                <h1 onclick=appear("organization","block")>
+                    ORGANIZATION
+                </h1>
+                <div id="organization">
+                    <div class="subcontentrow R">
+                        <div class="org">
+                            <p class="orgname R">IMT 'SIGNUM' ITB (2019-now)</p>
+                            <p class="orgdesc R">Student association of telecommunication students.</p>
+                        </div>
+                        <div class="logo R">
+                            <img src="src/imt.png" class="orgimg">
+                        </div>
+                    </div>
+    
+                    <div class="subcontentrow R">
+                        <div class="org R">
+                            <p class="orgname R">Aksantara ITB (2020-now)</p>
+                            <p class="orgdesc R">Student unit focusing on UAV competition and research.</p>
+                        </div>
+                        <div class="logo R">
+                            <img src="src/aksantara.png" class="orgimg">
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+            <div class="subcontent">
+                <h1 onclick=appear("projects","block")>
+                    PROJECTS
+                </h1>
+                <div id="projects">
+                    <div class="subcontentrow">
+                        <div class="org">
+                            <p class="orgname" title="Repository pending!">Booksenion - Book Recommender System</p>
+                            <p class="orgdesc">Worked on a machine learning based program to 
+                                recommend books as an alternative to the user’s 
+                                shopping cart based on the user’s characteristics.
+                        </div>
+                    </div>
+    
+                    <div class="subcontentrow">
+                        <div class="org">
+                            <p class="orgname">Technology Development – Flight Controller KRTI 2020</p>
+                            <p class="orgdesc">Contributed as a telemetry engineer in a UAV flight
+                                controller development team. Coded a communication
+                                protocol implementation on ground control system and
+                                flight controller.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="subcontentrow">
+                        <div class="org">
+                            <p class="orgname">433 MHz Wilkinson Power Divider</p>
+                            <p class="orgdesc">Helped make a basic circular Wilkinson Power
+                                Divider at 433 MHz. Paper published on ICRAMET 2020 and <a href="https://ieeexplore.ieee.org/document/9298647/" target="_blank">IEEE Explore.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subcontentrow">
+                        <div class="org">
+                            <p class="orgname">4G LTE Telemetry Module</p>
+                            <p class="orgdesc">Ongoing research. Acting as the person in charge
+                                of researching a UAV telemetry module that can stream telemetry
+                                data through cellular internet.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="subcontent R">
+                <h1 onclick=appear("skills","block")>
+                    SKILLS
+                </h1>
+                <div id="skills">
+                    <p class="skills">Programming (Python, C, Javascript)</p>
+                    <p class="skills">Embedded Systems</p>
+                    <p class="skills">Computer Networks</p>
+                    <p class="skills">Data Science</p>
+                    <p class="skills">RF Electronics</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <p id="f">Credit to Gatis Marcinkevics on Unsplashed for the background image.</p>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

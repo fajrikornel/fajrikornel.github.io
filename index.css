@@ -1,0 +1,304 @@
+* {
+    color:white;
+}
+
+@font-face {
+    font-family: nama;
+    src: url('src/Cairo-Bold.ttf')
+}
+
+@font-face {
+    font-family: headFont;
+    src: url('src/OpenSans-SemiBold.ttf')
+}
+
+
+@font-face {
+    font-family: biasa;
+    src: url('src/Roboto-Regular.ttf')
+}
+
+body {
+    background-image:url('src/bg2.jpg');
+    margin:0;
+}
+
+.head {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding-top:2vw;
+    width: 75%;
+    min-height:100px;
+    background-color:rgba(0,0,0,0.6);
+    display:flex;
+    flex-direction:row;
+}
+
+.foto {
+    margin:2vw;
+    float:left;
+    width:30%;
+}
+
+.foto img {
+    width:100%;
+    height:auto;
+    margin-left:2vw;
+    border-radius:200px;
+}
+
+.contact {
+    font-family: biasa;
+    margin-left:5%;
+    margin-right:5%;
+    max-height:50%;
+    float:left;
+}
+
+
+.contact h1 {
+    font-family: nama;
+    font-size: 3vw;
+}
+
+
+.contact a {
+    padding-top:1vw;
+    margin-right:1vw;
+}
+
+
+.contactdata {
+    display:flex;
+    flex-direction:row;
+}
+
+.contactdata img {
+    height:3vw;
+}
+
+.contactdata p {
+    font-size: 1.5vw;
+    margin-right: 4vw;
+}
+
+/*
+BAGIAN OVERVIEW
+*/
+
+.overview {
+    width:75%;
+    margin-top:5vw;
+    margin-left:12.5%;
+    margin-right:12.5%;
+    text-align:center;
+}
+
+.overview h1 {
+    display:inline;
+    font-family:nama;
+    font-size:2.25vw;
+}
+
+.overview h1:hover {
+    color:rgb(200,200,150,1);
+}
+
+.subcontent h1:hover {
+    color:rgb(200,200,150,1);
+}
+
+.overview p {
+    display:none;
+    width:75%;
+    margin-left:12.5%;
+    margin-right:12.5%;
+    font-family:biasa;
+    font-size:1.5vw;
+}
+
+/*
+BAGIAN CONTENT
+*/
+
+.content {
+    margin-top:0;
+    margin-left:12.5%;
+    margin-right:12.5%;
+    margin-bottom:0;
+    padding-bottom:1vw;
+    padding-top:3.5vw;
+    width:75%;
+    align-self:center;
+    background-color:rgba(0,0,0,0.6);
+}
+
+.subcontent {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.subcontent.R {
+    text-align:right;
+}
+
+.subcontent h1 {
+    display:inline;
+    margin-left:5%;
+    margin-right:5%;
+    font-family: nama;
+    font-size:2.25vw;
+}
+
+.overview h1:hover {
+    cursor:pointer;
+}
+
+.subcontent h1:hover {
+    cursor:pointer;
+}
+
+.subcontentrow {
+    width:80%;
+    margin-bottom:2.5vw;
+    display:flex;
+    flex-direction:row;
+}
+
+.subcontentrow.R {
+    justify-content:flex-end;
+    position:relative;
+    right:-20%;
+}
+
+
+.logo {
+    padding-top:1vw;
+    width:10vw;
+    margin-left:2vw;
+    margin-right:2vw;
+}
+
+
+.orgname {
+    font-family: headFont;
+    font-size:2vw;
+}
+
+.orgdesc {
+    font-family: biasa;
+    font-size: 1.5vw;
+}
+
+.orgimg {
+    width: 100%;
+    height: auto;
+}
+
+.skills {
+    font-size:2vw;
+    font-family: biasa;
+    margin-right:5%;
+}
+
+#education {
+    display:none;
+}
+
+#organization {
+    display:none;
+}
+
+#projects {
+    display:none;
+}
+
+#skills {
+    display:none;
+}
+
+#f {
+    font-family: biasa;
+    font-size: 1vw;
+    text-align:center;
+}
+
+@media (max-width:800px) {
+    .head {
+        margin:0%;
+        width:100%;
+    }
+
+    .foto {
+        margin:2vw;
+        float:left;
+        width:20%;
+    }
+    
+    .foto img {
+        width:100%;
+        height:auto;
+    }
+
+    .contact h1 {
+        font-size:3.5vw;
+    }
+
+    .contactdata img {
+        height:3vw;
+        margin:1vw;
+    }
+    
+    .contactdata p {
+        font-size: 2.5vw;
+        margin-right: 4vw;
+    }
+
+    .contact a {
+        padding-top:1.5vw;
+    }
+    
+    /*
+    BAGIAN CONTENT
+    */
+
+    .content {
+        width:100%;
+        align-self:center;
+        margin:0;
+    }
+
+    .logo {
+        padding-top:5vw;
+    }
+
+    .overview h1 {
+        font-size: 3.5vw;
+    }
+
+    .overview p {
+        font-size:2.75vw;
+    }
+
+    .subcontent h1 {
+        font-size:3.5vw;
+    }
+
+    .orgname {
+        font-size:3vw;
+    }
+
+    .orgdesc {
+        font-size:2.75vw;
+    }
+
+    .skills {
+        font-size:3vw;
+    }
+
+    #f {
+        font-size: 2vw;
+    }
+}
